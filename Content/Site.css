@@ -1,4 +1,4 @@
-﻿body {
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -32,6 +32,8 @@ textarea {
 .intro-main {
     width: 90%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .section {
@@ -39,7 +41,7 @@ textarea {
 }
 
 #avatar {
-    width: calc(300px + 0.390625vw);
+    width: calc(250px + 0.390625vw);
     border-radius: 50%;
     background-color: #8092ffdb;
     margin: 0 auto;
@@ -47,19 +49,49 @@ textarea {
     height: auto;
 }
 
-.intro-text {
-    padding: 2vw;
-    color: #262626;
-    width: fit-content;
-    text-align: left;
+
+
+#intro-text-1 {
+    overflow: hidden;
+    width: 0;
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    font-size: 3em;
+    White-space: nowrap;
 }
 
-.intro h1 {
-    font-size: 8vw;
+#intro-text-2 {
+    overflow: hidden;
+    White-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    font-size: 3em;
+    
 }
 
-.intro p {
-    font-style: italic;
+#intro-text-3 {
+    overflow: hidden;
+    White-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    font-size: 3em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%;
+    }
 }
 
 .bubble {
