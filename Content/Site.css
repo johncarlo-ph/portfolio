@@ -24,7 +24,7 @@ textarea {
 }
 
 .intro {
-    background: url("../Content/images/bg-intro.png");
+    background: url("../../Content/images/bg-intro.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -34,6 +34,8 @@ textarea {
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .section {
@@ -70,7 +72,6 @@ textarea {
     animation-fill-mode: forwards;
     animation-delay: 1.5s;
     font-size: 3em;
-    
 }
 
 #intro-text-3 {
@@ -91,6 +92,25 @@ textarea {
 
     to {
         width: 100%;
+    }
+}
+
+#down-arrow {
+    height: 0px;
+    animation: scrolldown;
+    animation-duration: 1s;
+    Animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scrolldown {
+    0% {
+        height: 0%;
+    }
+
+    100% {
+        height: 3vh;
     }
 }
 
@@ -130,7 +150,7 @@ textarea {
 
 .works-title {
     text-align: left;
-    font-size: 2rem;
+    font-size: 3.2vh;
     font-weight: bold;
 }
 
@@ -174,7 +194,7 @@ textarea {
     width: 96%;
     margin: 0 auto;
     margin-bottom: 8px;
-    padding-bottom:30px;
+    padding-bottom: 30px;
 }
 
 .included-card-header {
@@ -246,7 +266,8 @@ textarea {
 .badges-card {
     padding: 12px;
     max-height: 600px;
-    min-height: 480px;
+    min-height: 50vh;
+    margin-top: 20px;
 }
 
 .badges-source {
@@ -260,12 +281,15 @@ textarea {
 
 .hireDateDiv {
     text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    margin-top: 12px;
 }
 
     .hireDateDiv span {
         font-size: 170px;
         color: #7a70f7;
-        font-weight:bold;
+        font-weight: bold;
     }
 
     .hireDateDiv label {
@@ -275,19 +299,17 @@ textarea {
 
 ul.no-bullets {
     list-style-type: none;
-    padding:0;
-    margin:0;
-    font-size:calc(15px + 0.390625vw);
+    padding: 0;
+    margin: 0;
+    font-size: calc(15px + 0.390625vw);
 }
 
 .skill-title {
     font-weight: bold;
     color: #6062c1;
     font-size: calc(18px + 0.390625vw);
-    
 }
 
 .skills-div {
     padding: 20px;
-    width: calc(200px + 0.390625vw);
 }
