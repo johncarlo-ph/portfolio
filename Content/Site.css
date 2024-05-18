@@ -312,4 +312,5 @@ ul.no-bullets {
 
 .skills-div {
     padding: 20px;
+    min-width: 18vw;
 }
