@@ -1,0 +1,261 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.intro {
+    background: url("../Content/images/bg-intro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section {
+    background-color: #fff;
+}
+
+#avatar {
+    width: calc(300px + 0.390625vw);
+    border-radius: 50%;
+    background-color: #8092ffdb;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.intro-text {
+    padding: 2vw;
+    color: #262626;
+    width: fit-content;
+    text-align: left;
+}
+
+.intro h1 {
+    font-size: 8vw;
+}
+
+.intro p {
+    font-style: italic;
+}
+
+.bubble {
+    position: relative;
+    font-family: Arial;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: #ebf0ffed;
+    margin: 0 auto;
+}
+
+    .bubble:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 0;
+        z-index: 1;
+        border-style: solid;
+        border-color: transparent #ebf0ffed;
+        border-width: 2vw 2vw 2vw 0;
+        top: 20%;
+        left: -2vw;
+        margin-top: -2vw;
+    }
+
+
+
+
+
+.works {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.works-title {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.works-content {
+    background: #fff;
+    width: 80%;
+    margin: 0 auto;
+    color: #3d3d3d;
+}
+
+.included-content {
+    background: #fff;
+    width: 90%;
+    margin: 0 auto;
+    color: #3d3d3d;
+}
+
+.works-image {
+    width: 100%;
+    height: auto;
+}
+
+.works-detail {
+    margin-top: 20px;
+}
+
+    .works-detail ul {
+        font-size: 24px;
+    }
+
+.works-technology {
+    width: 150px;
+}
+
+.large-image {
+    width: 100%;
+}
+
+.included-card {
+    padding: 0;
+    width: 96%;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    padding-bottom:30px;
+}
+
+.included-card-header {
+    text-align: left;
+    background-color: #3c69cd;
+    color: white;
+}
+
+.included-details {
+    font-size: 16px;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    .contact-content ion-icon {
+        height: 15vh;
+        width: 100%;
+        color: #344ec5;
+    }
+
+.contact-tag {
+    font-weight: 600;
+    color: rgb(76 76 76 / 0.90);
+}
+
+.contact {
+    font-size: 20px;
+    font-weight: bold;
+    color: #484848;
+}
+
+.contact-content a {
+    font-size: 20px;
+}
+
+.divTechnologies {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+    .divTechnologies h4 {
+        font-size: 30px;
+    }
+
+    .divTechnologies a {
+        font-style: italic;
+        text-decoration: none;
+    }
+
+.microsoft-badges {
+    text-align: center;
+    max-height: 300px;
+}
+
+    .microsoft-badges img {
+        max-width: 60vw;
+    }
+
+.badges-card {
+    padding: 12px;
+    max-height: 600px;
+    min-height: 480px;
+}
+
+.badges-source {
+    text-align: center;
+}
+
+    .badges-source img {
+        max-width: 100px;
+        margin: 12px;
+    }
+
+.hireDateDiv {
+    text-align: center;
+}
+
+    .hireDateDiv span {
+        font-size: 170px;
+        color: #7a70f7;
+        font-weight:bold;
+    }
+
+    .hireDateDiv label {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+ul.no-bullets {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    font-size:calc(15px + 0.390625vw);
+}
+
+.skill-title {
+    font-weight: bold;
+    color: #6062c1;
+    font-size: calc(18px + 0.390625vw);
+    
+}
+
+.skills-div {
+    padding: 20px;
+    width: calc(200px + 0.390625vw);
+}
