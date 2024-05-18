@@ -68,7 +68,7 @@ textarea {
     White-space: nowrap;
     width: 0;
     animation: typing;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
     animation-delay: 1.5s;
     font-size: 3em;
@@ -79,9 +79,9 @@ textarea {
     White-space: nowrap;
     width: 0;
     animation: typing;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 3s;
+    animation-delay: 2.3s;
     font-size: 3em;
 }
 
