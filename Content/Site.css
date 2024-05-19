@@ -49,6 +49,7 @@ textarea {
     margin: 0 auto;
     margin-bottom: 20px;
     height: auto;
+    border:1px solid gray;
 }
 
 
@@ -59,7 +60,7 @@ textarea {
     animation: typing;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    font-size: 3em;
+    font-size: 5vh;
     White-space: nowrap;
 }
 
@@ -71,7 +72,7 @@ textarea {
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     animation-delay: 1.5s;
-    font-size: 3em;
+    font-size: 5vh;
 }
 
 #intro-text-3 {
@@ -81,8 +82,8 @@ textarea {
     animation: typing;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-delay: 2s;
-    font-size: 3em;
+    animation-delay: 2.2s;
+    font-size: 5vh;
 }
 
 @keyframes typing {
@@ -152,6 +153,7 @@ textarea {
     text-align: left;
     font-size: 3.2vh;
     font-weight: bold;
+    color: #4294ff;
 }
 
 .works-content {
@@ -288,7 +290,7 @@ textarea {
 
     .hireDateDiv span {
         font-size: 170px;
-        color: #7a70f7;
+        color: #4294ff;
         font-weight: bold;
     }
 
@@ -306,7 +308,7 @@ ul.no-bullets {
 
 .skill-title {
     font-weight: bold;
-    color: #6062c1;
+    color: #2d81ed;
     font-size: calc(18px + 0.390625vw);
 }
 
