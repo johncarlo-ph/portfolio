@@ -43,7 +43,7 @@ textarea {
 }
 
 #avatar {
-    width: calc(250px + 0.390625vw);
+    width: calc(200px + 0.390625vw);
     border-radius: 50%;
     background-color: #8092ffdb;
     margin: 0 auto;
