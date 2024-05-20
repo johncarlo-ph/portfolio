@@ -1,7 +1,3 @@
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
@@ -27,6 +23,7 @@ textarea {
     background: url("../Content/images/bg-intro.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height:100vh;
 }
 
 .intro-main {
@@ -216,7 +213,6 @@ textarea {
     min-height: 60vh;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
     .contact-content ion-icon {
@@ -228,6 +224,11 @@ textarea {
 .contact-tag {
     font-weight: 600;
     color: rgb(76 76 76 / 0.90);
+}
+.contact-div {
+    border-top: 1px solid lightgray;
+    padding-top: 10vh;
+    background-color: #f7f9ff;
 }
 
 .contact {
