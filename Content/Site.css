@@ -20,10 +20,10 @@ textarea {
 }
 
 .intro {
-    background: url("../Content/images/bg-intro.png");
+    background: url("../../Content/images/bg-intro.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height:100vh;
+    height: 100vh;
 }
 
 .intro-main {
@@ -46,7 +46,7 @@ textarea {
     margin: 0 auto;
     margin-bottom: 20px;
     height: auto;
-    border:1px solid gray;
+    border: 1px solid gray;
 }
 
 
@@ -160,6 +160,12 @@ textarea {
     color: #3d3d3d;
 }
 
+    .works-content h1 {
+        font-weight: bold;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
 .included-content {
     background: #fff;
     width: 90%;
@@ -225,6 +231,7 @@ textarea {
     font-weight: 600;
     color: rgb(76 76 76 / 0.90);
 }
+
 .contact-div {
     border-top: 1px solid lightgray;
     padding-top: 10vh;
