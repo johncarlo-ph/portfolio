@@ -20,7 +20,7 @@ textarea {
 }
 
 .intro {
-    background: url("../../Content/images/bg-intro.png");
+    background: url("../Content/images/bg-intro.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -323,3 +323,4 @@ ul.no-bullets {
     padding: 20px;
     min-width: 18vw;
 }
+
